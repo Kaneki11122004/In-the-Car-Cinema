@@ -44,45 +44,42 @@
             </nav>
         </div>
         <br><br><br><br><br>
-        <h1>Booking Ticked</h1>
-        <div class="t1">
-          <style>
-            table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  color: black;
-}
-          </style>
-          <table style="width:100%">
-            <tr>
-              <th>how many people</th>
-              <th>price</th> 
-              <th>Age</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>£10</td>
-              <td>10-16</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>£12</td>
-              <td>16-20</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>£15</td>
-              <td>20 or above</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>£30</td>
-              <td>family</td>
-            </tr>
+        <div class="table-booking">
+          <h1 class="hbooking">Time and Price table</h1>
+          <table class="table-book">
+            <thead>
+              <tr>
+                <th>ticked</th>
+                <th>start / end time</th>
+                <th>price</th>
+                <th>batch status</th>
+                <th>#</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="ticked">one ticked for kid</td>
+                <td data-label="start / end time">09:00 - 22:00 (IST)</td>
+                <td data-label="price">£5</td>
+                <td data-label="batch status"><span class="text_open">[ open ]</span></td>
+                <td data-label="#"><a href="booking.html" class="btn">pay now</a></td>
+              </tr>
+              <tr>
+                <td data-label="ticked">one tickerd for adult</td>
+                <td data-label="start / end time">09:00 - 22:00 (IST)</td>
+                <td data-label="price">£10</td>
+                <td data-label="batch status"><span class="text_open">[ open ]</span></td>
+                <td data-label="#"><a href="booking.html" class="btn">pay now</a></td>
+              </tr>
+              <tr>
+                <td data-label="ticked">one ticked for family</td>
+                <td data-label="start / end time">09:00 - 22:00 (IST)</td>
+                <td data-label="price">£20</td>
+                <td data-label="batch status"><span class="text_open">[ open ]</span></td>
+                <td data-label="#"><a href="booking.html" class="btn">pay now</a></td>
+              </tr>
+            </tbody>
           </table>
-        </div>
-        <div>
-          <li><a href="booking.html">BOOKING NOW</a></li>
         </div>
 </body>
 </html>
