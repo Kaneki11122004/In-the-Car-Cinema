@@ -633,7 +633,7 @@ span.price {
 .hbooking{
   font-size: 40px;
   text-align: center;
-  color: #f1f1f1;
+  color: black;
   margin-bottom: 40px;
 }
 
@@ -646,7 +646,7 @@ span.price {
   font-size: 14px;
   font-weight: medium;
   letter-spacing: 0.35px;
-  color: #ffffff;
+  color: #EAEAEA;
   opacity: 1;
   padding: 12px;
   vertical-align: top;
@@ -678,7 +678,7 @@ span.price {
   display: inline-block;
   background-color: #ff1045;
   font-weight: medium;
-  color: #ffffff;
+  color: white;
   text-align: center;
   vertical-align: middle;
   user-select: none;
